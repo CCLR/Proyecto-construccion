@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.edu.konradlorenz.becas_u">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainMenu">
+
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Iniciar."
+            android:parentActivityName=".HomePro">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePro" />
+        </activity>
+        <activity
+            android:name=".SingUpActivity"
+            android:label="asasa."
+            android:parentActivityName=".LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+        <activity android:name=".InfoBeca"
+            android:parentActivityName=".NextSingUp">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NextSingUp" />
+        </activity>
+        <activity android:name=".infoEntidad"
+            android:parentActivityName=".InfoBeca">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".InfoBeca" />
+        </activity>
+        <activity android:name=".NextSingUp"
+            android:parentActivityName=".SingUpActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SingUpActivity" />
+        </activity>
+        <activity
+            android:name=".HomePro"
+            android:label="@string/title_activity_home_pro"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Becas_U</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="nombre_del_ofertante">Organización de los Estados Americanos (OEA)</string>
+    <string name="nombre_de_la_oferta">Becas OEA para jóvenes emprendedores - emprendimiento emperesarial BOOTCAMP</string>
+    <string name="datos_de_la_oferta">La Organización de los Estados Americanos (OEA), convoca a universitarios colombianos a participar de su convocatoria de becas, para concurrir a la iniciativa empresarial Boot Camp. La convocatoria es para entregar 8 becas que cubrirán todos los gastos del curso, 4 de ellas además cubrirán los pasajes de avión.
+    El evento dura 7 semanas, el objetivo es ayudar al participante  a desarrollar una idea de negocio con el fin de crear una empresa</string>
+    <string name="incluye">- Alojamiento\n- Matrícula\n- Transporte\n- Seguro Médico\n- Cuantía (Dinero para gastos)</string>
+    <string name="requisitos">- Nivel de estudios: Estudiante universitario o graduado\n- Edad: menor 29 años\n- Area: Tecnologías de la información\n- Nivel de ingles: Excelente\n- Plazo: 21/05/2017</string>
+    <string name="documento_a_presentar">- Documento de identidad\n- CV\n- 2 Cartas de recomendación: una de un profesor y una de un empleador\n- Copia del expediente académico\n- Documentos que prueben el nivel de inglés\n- Resumen de una idea sobre un potencial negocio a desarrollar.</string>
+
+
+    <string name="title_activity_info_beca">InfoBeca</string>
+    <string name="title_activity_home_pro">Becas U</string>
+</resources>

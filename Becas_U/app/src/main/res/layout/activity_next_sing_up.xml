@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="co.edu.konradlorenz.becas_u.NextSingUp">
+
+    <ScrollView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Qué notificaciones te gustaria recibir?"
+                android:textSize = "@dimen/text_dimension_title1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nivel academico: "
+                    android:textSize = "@dimen/text_dimension_subtitle"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkBox16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pregrado"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Maestria"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Doctorado"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tecnico"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tecnologo"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Especialista"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Disciplinas:"
+                    android:textSize = "@dimen/text_dimension_subtitle"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/checkBox11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Ingenieria"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pscicologia"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Filosofia"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Biologia"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Filantropia"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Sociologia"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Cocina"
+                        android:textSize = "@dimen/text_dimension_Checkbox"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Next_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Finalizar" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
